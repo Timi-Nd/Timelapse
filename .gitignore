@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Build output (the CI workflow publishes these as artifacts)
+build/
+dist/
+*.spec
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated videos and local test photos
+*.mp4
+test_photos/
